@@ -134,7 +134,9 @@
             bashInteractive
             py3
             patchelf
+            gdb
             gef-bata24
+            one_gadget
             my-ropr
           ];
         };
