@@ -12,6 +12,11 @@
           description = "pwn flake";
         };
 
+        pentest = {
+          path = ./pentest;
+          description = "pentest flake";
+        };
+
       };
 
       defaultTemplate = self.templates.pwn;
